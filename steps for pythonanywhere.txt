@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 https://www.youtube.com/watch?v=SCoGwHCNXVw
 
 update the requirements_personal.txt file to reflect only the necessary packages- mostly you need only Django and maybe Pillow
@@ -20,12 +19,3 @@ in PA on WEB section , open WSGI config file and delete everything from HELLO to
 in the WSGI file change the PATH line and the ENVIRONMENT line to link to the right files
 Open settings.py and change ALLOWED HOST line to include '*' in the brackets
 in PA wunder WEB, reload app
-dummytest1
-<<<<<<< HEAD
-s
-=======
-
->>>>>>> dummytest1
-
-=======
->>>>>>> dummytest1
