@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 https://www.youtube.com/watch?v=SCoGwHCNXVw
 
 update the requirements_personal.txt file to reflect only the necessary packages- mostly you need only Django and maybe Pillow
@@ -26,3 +27,5 @@ s
 
 >>>>>>> dummytest1
 
+=======
+>>>>>>> dummytest1
