@@ -1,0 +1,24 @@
+https://www.youtube.com/watch?v=SCoGwHCNXVw
+
+update the requirements_personal.txt file to reflect only the necessary packages- mostly you need only Django and maybe Pillow
+next creata  zip file
+in PA under Files upload the zip file
+in PA: under Console, click on Bash
+in the bash console:
+- make a virtual env by mkvirtualenv django20 --python=/usr/bin/python3.6
+- check by typing dir
+- next unzip by typing unzip django_forms.zip
+in PA: go to WEB and create a new app>manual configuration>python 3.6
+in PA: check reload the app
+in PA on WEB scroll down to section for virtual env any type in django20 and click checckbox
+Go back to the bash console you had opened....type dir to check where you are
+Next in the bash console, type cd django_forms to go in the folder which contains the requirements_personal txt
+next in the bash console type pip install -r requirements_personal.txt
+in PA on WEB section , open WSGI config file and delete everything from HELLO to DJANGO and then uncomment everything
+....up to and including the line "application = get_wsgi_application()"
+in the WSGI file change the PATH line and the ENVIRONMENT line to link to the right files
+Open settings.py and change ALLOWED HOST line to include '*' in the brackets
+in PA wunder WEB, reload app
+
+
+
