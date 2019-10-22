@@ -7,7 +7,7 @@ Flask==1.0.2
 Flask-RESTful==0.3.6
 fuzzywuzzy==0.16.0
 openpyxl==2.5.3
-Pillow==5.1.0
+Pillow==6.2.0
 pyparsing==2.2.0
 python-Levenshtein==0.12.0
 requests==2.18.4
